@@ -1,0 +1,9 @@
+export const GET_COUNTRIES = "GET_COUNTRIES";
+export const GET_DETAIL = "GET_DETAIL";
+export const GET_NAME = "GET_NAME";
+export const ORD_ALPHA = " ORD_ALPHA";
+export const ORD_ALPHA_REV = " ORD_ALPHA_REV";
+export const ORD_POP = "ORD_POP";
+export const ORD_POP_REV = "ORD_POP_REV";
+export const ORD_CONTINENT = "ORD_CONTINENT";
+export const SHOW_ACTIV = "SHOW_ACTIV";

@@ -1,0 +1,30 @@
+.srctBtn{
+    display: inline-block;
+padding:0.5em 1.2em ;
+border:0.1em solid #838383;
+margin:0 0.3em 0.3em 0;
+border-radius:1em;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+font-size: small;
+    
+    
+}
+.srctBtn:hover{
+    color: #000000;
+    background-color: #8a8a8a;
+}
+
+.inputText{
+    border-radius: 50px;
+    margin: 5px;
+    padding: 4%;
+    outline: none;
+    background-color: #eee;
+    border: 0;
+    margin-left: 15px;
+    
+}

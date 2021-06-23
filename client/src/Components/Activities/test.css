@@ -1,0 +1,29 @@
+.countryContainer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #afafaf;
+    border: 1px black solid;
+    border-radius: 4%;
+    margin: 5em;
+    width: 20%;
+    border:none;
+    border:1px solid black
+}
+.countryContainer:hover{
+    background-color: #8f8d8d;
+    ;
+}
+
+.btn{
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+   
+    
+    }
+    
+.btn:hover{
+        color: #000000;
+        background-color: #3d9934;
+        }

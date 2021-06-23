@@ -1,0 +1,33 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.butn{
+display: inline-block;
+padding:0.35em 1.2em ;
+border:0.1em solid #838383;
+margin:1em 0.3em 0.3em 0;
+border-radius:1em;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+text-align:center;
+transition: all 0.2s;
+font-size: larger;
+color: white;
+background-color: transparent;
+}
+
+.butn:hover{
+    color: #000000;
+    background-color: #8a8a8a;
+    }
+
+.allcountries{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+

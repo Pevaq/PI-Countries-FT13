@@ -1,0 +1,62 @@
+.all{
+display: inline;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    display: contents;
+    
+}
+
+.countryContainer{
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 4%;
+    margin: 2em;
+    width: 20%;
+    border: none;
+    color: white;
+    
+    border: 1px solid rgba(255, 255, 255, 0.548);
+
+
+}
+.countryContainer:hover{
+    background-color: rgba(105, 105, 105, 0.15);
+}
+.imgContainer img{
+    width: 30%;
+    border-radius: 4%;
+}
+
+.butn{
+    display: inline-block;
+    padding:0.35em 1.2em ;
+    border:none;
+    margin-top: 5px;
+    border-radius:1em;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: larger;
+    text-decoration:none;
+    color: transparent;
+
+    }
+    
+    .butn:hover{
+        background-color: rgba(255, 249, 249, 0.15);
+        }
+
+    .link:hover{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            display: contents;
+            
+        }
+
+.activity{
+
+    margin-left: 20px;
+}

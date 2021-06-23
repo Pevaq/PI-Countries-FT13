@@ -1,0 +1,182 @@
+.navBarContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #333232;
+    color: white;
+    align-self: flex-start;
+    box-shadow: none;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+.inputName{
+
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+}
+
+
+.difficulty{
+    margin: 2em 2em 2em 2em ;
+   
+}
+.duration{
+    margin: 2em 2em 2em 2em ;
+}
+.season{
+    margin: 2em 2em 2em 2em ;
+}
+
+.countries{
+    margin: 2em 2em 2em 2em ;
+}
+
+.countries{
+    margin: 2em 2em 2em 2em ;
+
+}
+
+.countries1{
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    background-color:transparent; 
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border-radius: 5%;
+    box-shadow: none;
+}
+.link:hover{
+    background-color: #fff;
+    border: 1px #000000 solid;
+    color: #000000;
+    box-shadow: none;
+}
+
+.inputName{
+    margin: 1em 1em 1em 1em;
+    display: flex;
+    box-shadow: none;
+    
+}
+
+
+.countryContainer{
+    
+    background-color: #f3f2f246;
+    border: 1px black solid;
+    border-radius: 4%;
+    margin: 1em;
+    width: 100px;
+    height: 100px;
+
+}
+.countryContainer:hover{
+    background-color: #835e5e;
+    transition: 0.5s;
+}
+
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+    border:1px black;
+}
+
+
+.btn1{
+        display: inline-block;
+        border: none;
+        border-radius: 10px;
+        box-shadow: none;
+        margin: 1em 1em 1em 1em;
+        height: 25px;
+        width: 90px;
+        
+       
+        
+        }
+.btn1:hover{
+        color: #000000;
+        background-color: #3c9934;
+        }
+
+       
+        
+.btn:hover{
+  color: #000000;
+ background-color: #3c9934;
+ transition: 0.5s;
+ }
+    
+
+.name{
+         color: white;
+}
+
+.butn{
+        display: inline-block;
+        padding:0.35em 1.2em ;
+        border:0.1em solid #838383;
+        margin:1em 0.3em 0.3em 0;
+        border-radius:1em;
+        text-decoration:none;
+        font-family:'Roboto',sans-serif;
+        font-weight:300;
+        text-align:center;
+        transition: all 0.2s;
+        font-size: larger;
+        color: rgb(0, 0, 0);
+ }
+ .butn:hover{
+  color: #000000;
+background-color: #8a8a8a;
+ }
+.homelink{
+  text-decoration: none;
+ background-image: url("C:\Users\Pedro\Desktop\PI FUNCIONALIDADES\PI-Countries\PI-Countries\client\src\img\logo.png");
+ background-size: cover;
+ width: 60px;
+ height: 75px;
+padding-left: 0.5%;
+padding-right: 0.5%;
+border-radius: 5%;
+margin-bottom: 0.5%;
+color: rgba(255, 255, 255, 0);
+               
+}
+.homelink:hover{
+background-color: #fff;
+border: 1px #000000 solid;
+color: rgba(255, 255, 255, 0);
+            }
+
+.countryCont{
+border: none;
+border-radius: 4%;
+margin: 1em;
+width: 16%;
+border: solid 1px #fafafa70;
+background-color: rgba(255, 246, 246, 0.061);
+margin-left: 120px;
+
+
+}
+
+.countryCont:hover{
+
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.order{
+    display: flex;
+    flex-wrap: wrap;
+}
