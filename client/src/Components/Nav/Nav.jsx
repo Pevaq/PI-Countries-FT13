@@ -2,14 +2,29 @@ import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import style from "../Nav/navBar.module.css";
 import { connect, useDispatch } from "react-redux";
-import {getCountries, orderAlpha, orderCont, orderAlphaRev,showActiv,orderPop,orderPopRev,} from "../../actions/actions";
+import {
+  getCountries,
+  orderAlpha,
+  orderCont,
+  orderAlphaRev,
+  showActiv,
+  orderPop,
+  orderPopRev,
+} from "../../actions/actions";
 import SearchBar from "../Search/SearchBar.jsx";
-const NavBar = ({ orderAlpha, getCountries,orderAlphaRev,orderCont,showActiv, orderPop,orderPopRev,}) => {
+const NavBar = ({
+  orderAlpha,
+  getCountries,
+  orderAlphaRev,
+  orderCont,
+  showActiv,
+  orderPop,
+  orderPopRev,
+}) => {
   const [sort, setOrder] = useState("");
   const [region, setRegion] = useState("");
-  const[activity, setActivity] = useState("")
+  const [activity, setActivity] = useState("");
   const dispatch = useDispatch();
-  
 
   useEffect(() => {
     if (region) {
@@ -30,23 +45,22 @@ const NavBar = ({ orderAlpha, getCountries,orderAlphaRev,orderCont,showActiv, or
     else if (sort === "↓ population") orderPopRev();
   }, [sort]);
 
-  const activityHandler = (e) =>{
-    e.preventDefault()
-    
-    setActivity(e.target.value)
-}
+  const activityHandler = (e) => {
+    e.preventDefault();
 
-const searchActHandler = (e)=>{
-  e.preventDefault()
-  getCountries()
-  setTimeout(() => {
-    dispatch(showActiv(activity));
-  }, 200);
-  
- 
-  console.log(activity)
-  setActivity("")
-}
+    setActivity(e.target.value);
+  };
+
+  const searchActHandler = (e) => {
+    e.preventDefault();
+    getCountries();
+    setTimeout(() => {
+      dispatch(showActiv(activity));
+    }, 200);
+
+    console.log(activity);
+    setActivity("");
+  };
 
   return (
     <div className={style.navBarContainer}>
@@ -65,10 +79,9 @@ const searchActHandler = (e)=>{
         <SearchBar />
       </div>
       <div className={style.filtersContainer}>
-      <p>Filter by Continent</p>
-        
+        <p>Filter by Continent</p>
+
         <div className={style.selectContainer}>
-          
           <select onChange={(event) => setRegion(event.target.value)}>
             <option value="all">All</option>
             <option value="Americas">Americas</option>
@@ -81,16 +94,18 @@ const searchActHandler = (e)=>{
       </div>
       <div className={style.inputActivityContainer}>
         <label>Activity</label>
-        <form >
-          
+        <form>
           <input
             className={style.inputText}
             placeholder="Search your activity."
             type="text"
+            autocomplete="off"
             value={activity}
             onChange={activityHandler}
           />
-          <button className={style.butn} onClick={searchActHandler}>Search</button>
+          <button className={style.butn} onClick={searchActHandler}>
+            Search
+          </button>
         </form>
       </div>
 
@@ -119,4 +134,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(NavBar);
-

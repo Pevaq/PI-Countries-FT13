@@ -1,35 +1,35 @@
-body{
-   background-image: url("C:\Users\Pedro\Desktop\PI FUNCIONALIDADES\PI-Countries\PI-Countries\client\src\img\landing.jpg");
-   background-size: 100%;
-
-
+body {
+  background-image: url("C:\Users\Pedro\Desktop\PI-COUNTRIES\PI-Countries\PI-Countries\client\src\img\landing.jpg");
+  background-size: 100%;
 }
 
-.land{
-   font-size: 90px;
-   color: white;
+.land {
+  font-size: 90px;
+  color: white;
+  margin-bottom: 100px;
 }
-.link{
-   text-decoration: none;
-   color: rgb(255, 255, 255);
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
-.button{
-   border-radius: 50px;
-   height: 50px;
-   background-color: rgb(231, 35, 0);
-   shape-outside: none;
-
-   
-}
-
-.button:hover{
-   background-color: rgba(230, 169, 77, 0);
-   transition: 300ms;
+.button {
+  border-radius: 50px;
+  height: 50px;
+  background-color: rgb(231, 35, 0);
+  shape-outside: none;
+  margin-top: 50px;
 }
 
-.link:hover{
-   text-decoration: none;
-   color: rgb(255, 255, 255);
-   color: rgb(255, 255, 255);
+.button:hover {
+  background-color: rgba(230, 169, 77, 0);
+  transition: 300ms;
+}
 
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.divi {
+  margin-top: 100px;
 }

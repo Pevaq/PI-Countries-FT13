@@ -1,109 +1,100 @@
-.navBarContainer{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0.3em;
-    background-color: #333232;
-    padding: 0.2em;
-    color: white;
-    justify-content: space-around;
-    align-self: flex-start;
+.navBarContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.3em;
+  background-color: #333232;
+  padding: 0.2em;
+  color: white;
+  justify-content: space-around;
+  align-self: flex-start;
 }
 
-
-select{
-    margin-left: 0.5rem;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-    border-radius: 5%;
-    outline: none;
-    background-color: transparent;
-    color: white;
-    
+select {
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  border-radius: 5%;
+  outline: none;
+  background-color: transparent;
+  color: white;
 }
-option{
-    color: black;
+option {
+  color: black;
 }
 
-.link{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0);
-    background-image: url("C:\Users\Pedro\Desktop\PI FUNCIONALIDADES\PI-Countries\PI-Countries\client\src\img\logo.png");
-    background-size: 100%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    border-radius: 5%;
+.link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
+  background-image: url("C:\Users\Pedro\Desktop\PI-COUNTRIES\PI-Countries\PI-Countries\client\src\img\logo.png");
+  background-size: 100%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 5%;
 }
-.link:hover{
-    background-color: #fff;
-    transition: 0.7s;
-    color: rgba(255, 255, 255, 0);
+.link:hover {
+  background-color: #fff;
+  transition: 0.7s;
+  color: rgba(255, 255, 255, 0);
 }
-.sortContainer{
-    display: flex;
-}
-
-
-
-
-.filtersContainer{
-    display: flex;
-    margin-left: 3em;
+.sortContainer {
+  display: flex;
 }
 
-.selectContainer{
-    display: flex;
-    margin-left: 1.5em;
+.filtersContainer {
+  display: flex;
+  margin-left: 3em;
 }
 
-.inputActivityContainer{
-    display: flex;
-    align-self: center;
-    margin-left: 3em;
+.selectContainer {
+  display: flex;
+  margin-left: 1.5em;
 }
-.inputActivityContainer input{
-    margin-left: 0.5em;
-    outline: none;
-    border: 0;
-    border-radius: 25px;
-    padding: 3%;
-} 
-.butn{
-    display: inline-block;
-    padding:0.35em 1.2em  ;
-    border:0.1em solid #838383;
-    margin:0 0.3em 0.3em 0;
-    border-radius:1em;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    text-align:center;
-    transition: all 0.2s;
-    font-size: small;
-    margin-top: 0.3em;
-    }
-    
-    .butn:hover{
-        color: #000000;
-        background-color: #8a8a8a;
-        }
 
-        .link2{
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            background-image: url("C:\Users\Pedro\Desktop\PI FUNCIONALIDADES\PI-Countries\PI-Countries\client\src\img\logo.png");
-            background-size: 100%;
-            padding-left: 0.5%;
-            padding-right: 0.5%;
-            border-radius: 5%;
-            align-items: baseline;
-        }
-        .link2:hover{
-            background-color: #fff;
-    
-            color: rgba(255, 255, 255, 0);
-            transition: 0.7s;
-        }
+.inputActivityContainer {
+  display: flex;
+  align-self: center;
+  margin-left: 3em;
+}
+.inputActivityContainer input {
+  margin-left: 0.5em;
+  outline: none;
+  border: 0;
+  border-radius: 25px;
+  padding: 3%;
+}
+.butn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #838383;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+  font-size: small;
+  margin-top: 0.3em;
+}
 
-      
+.butn:hover {
+  color: #000000;
+  background-color: #8a8a8a;
+}
 
+.link2 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-image: url("C:\Users\Pedro\Desktop\PI-COUNTRIES\PI-Countries\PI-Countries\client\src\img\logo.png");
+  background-size: 100%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  border-radius: 5%;
+  align-items: baseline;
+}
+.link2:hover {
+  background-color: #fff;
 
+  color: rgba(255, 255, 255, 0);
+  transition: 0.7s;
+}

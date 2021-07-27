@@ -18,19 +18,25 @@ const SearchBar = () => {
   const homeHandler = () => {
     dispatch(getCountries());
   };
-  
 
   return (
     <div className={style.inputsContainer}>
-      <input className={style.inputText}
+      <input
+        className={style.inputText}
         type="text"
         placeholder="Search by name"
         name="input"
+        autocomplete="off"
         onChange={(e) => inputHandler(e)}
       />
       <div>
-      <button className={style.srctBtn} onClick={() => onClickHandler()}>Search</button>
-      <button className={style.srctBtn} onClick={() => homeHandler()}>Reset</button></div>
+        <button className={style.srctBtn} onClick={() => onClickHandler()}>
+          Search
+        </button>
+        <button className={style.srctBtn} onClick={() => homeHandler()}>
+          Reset
+        </button>
+      </div>
     </div>
   );
 };
